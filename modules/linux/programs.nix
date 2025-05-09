@@ -21,9 +21,25 @@
     fd
     ripgrep
     meson
+    cargo
+    rustc
+    rustfmt
     luajitPackages.luarocks
     tree-sitter
     ffmpeg-full
+    llvmPackages_20.stdenv
+    llvmPackages_20.libc
+    llvmPackages_20.libcxx
+    llvmPackages_20.libcxxClang
+    llvmPackages_20.libcxxStdenv
+    llvmPackages_20.libc-full
+    llvmPackages_20.openmp
+    llvmPackages_20.libllvm
+    llvmPackages_20.bintools
+    llvmPackages_20.libunwind
+    llvmPackages_20.compiler-rt
+    llvmPackages_20.clangUseLLVM
+    lldb_20
     (chromium.override {
       commandLineArgs = [
         "--ignore-gpu-blocklist"
