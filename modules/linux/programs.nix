@@ -39,6 +39,7 @@
     ffmpeg-full
     zip
     unzip
+    statix
     llvmPackages_20.stdenv
     llvmPackages_20.libcxx
     llvmPackages_20.libcxxClang
