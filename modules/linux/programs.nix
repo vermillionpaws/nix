@@ -48,6 +48,7 @@
     llvmPackages_20.compiler-rt
     llvmPackages_20.clangUseLLVM
     lldb_20
+    vscode-extensions.vadimcn.vscode-lldb
     (chromium.override {
       commandLineArgs = [
         "--ignore-gpu-blocklist"
