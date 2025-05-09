@@ -4,6 +4,16 @@
     dbus = {
       implementation = "broker";
     };
+    upower = {
+      enable = true;
+    };
+    udisks2 = {
+      enable = true;
+    };
+    fwupd = {
+      enable = true;
+
+    };
     xserver = {
       displayManager = {
         gdm = {
