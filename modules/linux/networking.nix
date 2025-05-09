@@ -6,6 +6,7 @@
 }:
 {
   networking = {
+    hostName = "hydrogen";
     networkmanager = {
       enable = true;
       dns = "systemd-resolved";
