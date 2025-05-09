@@ -3,6 +3,7 @@
   services = {
     dbus = {
       implementation = "broker";
+      apparmor = "enabled";
     };
     upower = {
       enable = true;

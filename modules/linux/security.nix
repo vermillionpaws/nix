@@ -33,8 +33,12 @@
       services = {
         user = {
           enableGnomeKeyring = true;
+          enableAppArmor = true;
         };
       };
+    };
+    apparmor = {
+      enable = true;
     };
   };
   services.journald = {
