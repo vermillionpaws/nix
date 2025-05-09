@@ -123,6 +123,10 @@
       tmpfsSize = "100%";
       cleanOnBoot = true;
     };
+    zramSwap = {
+      enable = true;
+      memoryPercent = 100;
+    };
     initrd = {
       systemd = {
         enable = true;
