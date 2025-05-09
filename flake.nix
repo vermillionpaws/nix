@@ -18,9 +18,9 @@
         system = "x86_64-linux";
         specialArgs = { inherit inputs; };
         modules = [
-          chaotic.nixosModules.default
           ./modules/linux/default.nix
           ./modules/options.nix
+          chaotic.nixosModules.default
         ];
       };
     };
