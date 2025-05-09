@@ -74,6 +74,7 @@
       };
       ohMyZsh = {
         enable = true;
+        theme = "sunaku";
       };
     };
     sway = {
