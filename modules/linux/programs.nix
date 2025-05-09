@@ -13,10 +13,7 @@
     sbctl
     wl-clipboard
     brightnessctl
-    mako
     kitty
-    fuzzel
-    sway
     neovim
     cmake
     ninja
@@ -60,9 +57,7 @@
       withVencord = true;
     })
   ];
-  services.gnome.gnome-keyring = {
-    enable = true;
-  };
+
   programs = {
     zsh = {
       enable = true;
@@ -83,12 +78,6 @@
       ohMyZsh = {
         enable = true;
         theme = "sunaku";
-      };
-    };
-    sway = {
-      enable = true;
-      wrapperFeatures = {
-        gtk = true;
       };
     };
   };

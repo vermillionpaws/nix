@@ -1,10 +1,17 @@
 { pkgs, ... }:
 {
   services = {
-    displayManager = {
-      enable = true;
-      ly = {
-        enable = true;
+    xserver = {
+      displayManager = {
+        gdm = {
+          enable = true;
+          wayland = true;
+        };
+      };
+      desktopManager = {
+        gnome = {
+          enable = true;
+        };
       };
     };
     libinput = {
@@ -27,19 +34,11 @@
     };
     portal = {
       enable = true;
-      wlr = {
-        enable = true;
-        settings = {
-          screencast = {
-            max_fps = 60;
-          };
-        };
-      };
       xdgOpenUsePortal = true;
       extraPortals = with pkgs; [
         xdg-desktop-portal
         xdg-desktop-portal-gtk
-        xdg-desktop-portal-wlr
+        xdg-desktop-portal-gnome
       ];
     };
     terminal-exec = {
