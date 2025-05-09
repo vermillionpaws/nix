@@ -55,17 +55,9 @@
         "--password-store=gnome-libsecret"
       ];
     })
-    (vesktop.override {
-      commandLineArgs = [
-        "--ignore-gpu-blocklist"
-        "--enable-zero-copy"
-        "--ozone-platform=wayland"
-        "--enable-features=VaapiVideoDecoder,VaapiIgnoreDriverChecks,Vulkan,DefaultANGLEVulkan,VulkanFromANGLE,TouchpadOverscrollHistoryNavigation"
-        "--gtk-version=4"
-        "--enable-wayland-ime"
-        "--wayland-text-input-version=3"
-        "--password-store=gnome-libsecret"
-      ];
+    (discord.override {
+      withOpenASAR = true;
+      withVencord = true;
     })
   ];
   services.gnome.gnome-keyring = {
