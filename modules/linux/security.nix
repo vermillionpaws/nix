@@ -8,6 +8,9 @@
   security = {
     protectKernelImage = true;
     forcePageTableIsolation = true;
+    isolate = {
+      enable = true;
+    };
     tpm2 = {
       enable = true;
       applyUdevRules = true;
