@@ -16,7 +16,7 @@
     {
       nixosConfigurations.hydrogen = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
+        # specialArgs = { inherit inputs; };
         modules = [
           ./modules/linux/default.nix
           ./modules/options.nix
