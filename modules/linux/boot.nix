@@ -6,6 +6,22 @@
 }:
 {
   boot = {
+    loader = {
+      efi = {
+        canTouchEfiVariables = true;
+      };
+      systemd-boot = {
+        enable = true;
+        configurationLimit = 3;
+        memtest86 = {
+          enable = true;
+        };
+        edk2-uefi-shell = {
+          enable = true;
+        };
+        editor = false;
+      };
+    };
     plymouth = {
       enable = true;
       theme = "tribar";
