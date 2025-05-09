@@ -5,6 +5,7 @@
     adwaita-icon-theme-legacy
     morewaita-icon-theme
     grim
+    btop
     pre-commit
     nixfmt-rfc-style
     cabal-install
