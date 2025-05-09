@@ -1,6 +1,8 @@
 { pkgs, ... } : { 
 	environment.systemPackages = with pkgs; [
 		grim
+		pre-commit
+		nixfmt-rfc-style
 		slurp
 		wl-clipboard
 		brightnessctl
