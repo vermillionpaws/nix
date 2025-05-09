@@ -24,6 +24,7 @@
     ./fonts.nix
     ./sound.nix
   ];
+  nixpkgs.config.allowUnfree = true;
 
   services.btrfs.autoScrub = {
     fileSystems = [ "/" ]; # Assuming root is formatted with Btrfs.

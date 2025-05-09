@@ -5,7 +5,6 @@
   ...
 }:
 {
-  allowUnfree = true;
   nix = {
     enable = true;
     daemonCPUSchedPolicy = "batch";
