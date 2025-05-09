@@ -1,5 +1,5 @@
 {
-  description = "Vermi's system configuration";
+  description = "System configuration";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
