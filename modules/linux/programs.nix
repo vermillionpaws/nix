@@ -25,6 +25,9 @@
     luajitPackages.luarocks
     tree-sitter
     ffmpeg-full
+    zip
+    unzip
+    tar
     llvmPackages_20.stdenv
     llvmPackages_20.libcxx
     llvmPackages_20.libcxxClang
