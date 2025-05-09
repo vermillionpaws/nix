@@ -28,7 +28,6 @@
     tree-sitter
     ffmpeg-full
     llvmPackages_20.stdenv
-    llvmPackages_20.libc
     llvmPackages_20.libcxx
     llvmPackages_20.libcxxClang
     llvmPackages_20.libcxxStdenv
