@@ -21,9 +21,7 @@
     fd
     ripgrep
     meson
-    cargo
-    rustc
-    rustfmt
+    rustup
     luajitPackages.luarocks
     tree-sitter
     ffmpeg-full
