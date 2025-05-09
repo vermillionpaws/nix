@@ -29,11 +29,11 @@
     meson
     rustup
     luajitPackages.luarocks
+    luajitPackages.luacheck
     python313FreeThreading
     python313Packages.pip
     pipx
     stylua
-    luacheck
     tree-sitter
     ffmpeg-full
     zip
