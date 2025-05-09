@@ -50,6 +50,7 @@
       "oops=panic"
       "module.sig_enforce=1"
       "mce=1"
+      "audit_backlog_limit=8192"
       "quiet"
       "splash"
       "loglevel=0"
