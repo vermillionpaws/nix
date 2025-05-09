@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
+    adwaita-icon-theme
+    adwaita-icon-theme-legacy
+    morewaita-icon-theme
     grim
     pre-commit
     nixfmt-rfc-style
