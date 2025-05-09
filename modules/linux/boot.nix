@@ -28,7 +28,7 @@
     };
     plymouth = {
       enable = true;
-      theme = "tribar";
+      theme = "bgrt";
     };
 
     kernelParams = [
