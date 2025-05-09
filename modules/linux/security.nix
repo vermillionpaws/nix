@@ -6,6 +6,13 @@
 }:
 {
   security = {
+    lsm = [
+      "landlock"
+      "lockdown"
+      "yama"
+      "integrity"
+      "bpf"
+    ];
     protectKernelImage = true;
     forcePageTableIsolation = true;
     isolate = {
