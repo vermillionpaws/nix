@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
   services = {
+    dbus = {
+      implementation = "broker";
+    };
     xserver = {
       displayManager = {
         gdm = {
