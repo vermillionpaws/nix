@@ -22,6 +22,7 @@
     ./programs.nix
     ./desktop.nix
     ./fonts.nix
+    ./sound.nix
   ];
 
   services.btrfs.autoScrub = {
