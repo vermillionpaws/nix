@@ -36,4 +36,13 @@
       dates = [ "daily" ];
     };
   };
+  system = {
+    switch = {
+      enable = true;
+      enableNg = true;
+    };
+    rebuild = {
+      enableNg = true;
+    };
+  };
 }
