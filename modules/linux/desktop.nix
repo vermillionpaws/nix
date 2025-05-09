@@ -43,6 +43,9 @@
         enable = true;
       };
     };
+    colord = {
+      enable = true;
+    };
   };
 
   xdg = {
