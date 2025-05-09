@@ -15,6 +15,11 @@
     brightnessctl
     kitty
     neovim
+    nodejs
+    pnpm
+    wget
+    wget2
+    gnumake
     cmake
     ninja
     git
