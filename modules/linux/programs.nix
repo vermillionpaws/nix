@@ -13,6 +13,7 @@
     slurp
     sbctl
     wl-clipboard
+    nil
     brightnessctl
     kitty
     nodejs
