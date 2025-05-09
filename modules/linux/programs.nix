@@ -14,7 +14,6 @@
     wl-clipboard
     brightnessctl
     kitty
-    neovim
     nodejs
     pnpm
     wget
@@ -84,6 +83,10 @@
         enable = true;
         theme = "sunaku";
       };
+    };
+    neovim = {
+      enable = true;
+      defaultEditor = true;
     };
   };
 }

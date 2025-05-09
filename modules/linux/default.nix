@@ -54,8 +54,6 @@
       GSK_DEBUG = "staging";
       _JAVA_AWT_WM_NONREPARENTING = "1";
 
-      EDITOR = "nvim";
-
       VK_INSTANCE_LAYERS = "VK_LAYER_KHRONOS_validation";
     };
   };
