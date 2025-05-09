@@ -32,6 +32,8 @@
     python313FreeThreading
     python313Packages.pip
     pipx
+    stylua
+    luacheck
     tree-sitter
     ffmpeg-full
     zip
