@@ -10,6 +10,7 @@
     cabal-install
     ghc
     slurp
+    sbctl
     wl-clipboard
     brightnessctl
     mako
