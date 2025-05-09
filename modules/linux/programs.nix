@@ -28,6 +28,9 @@
     meson
     rustup
     luajitPackages.luarocks
+    python314FreeThreading
+    pipx
+
     tree-sitter
     ffmpeg-full
     zip
