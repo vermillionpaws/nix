@@ -29,6 +29,13 @@
       rules = [ "-a exit,always -F arch=x86_64 -S execve" ];
       backlogLimit = 8192;
     };
+    pam = {
+      services = {
+        user = {
+          enableGnomeKeyring = true;
+        };
+      };
+    };
   };
   services.journald = {
     audit = true;
