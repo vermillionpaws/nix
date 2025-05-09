@@ -1,8 +1,13 @@
 { pkgs, ... }:
 {
-  services.displayManager = {
-    enable = true;
-    ly = {
+  services = {
+    displayManager = {
+      enable = true;
+      ly = {
+        enable = true;
+      };
+    };
+    libinput = {
       enable = true;
     };
   };
