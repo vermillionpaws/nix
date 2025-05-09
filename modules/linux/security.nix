@@ -11,6 +11,7 @@
       "lockdown"
       "yama"
       "integrity"
+      "apparmor"
       "bpf"
     ];
     protectKernelImage = true;
@@ -46,9 +47,6 @@
           enableAppArmor = true;
         };
       };
-    };
-    apparmor = {
-      enable = true;
     };
   };
   services.journald = {
