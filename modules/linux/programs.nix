@@ -9,6 +9,7 @@
     pre-commit
     nixfmt-rfc-style
     cabal-install
+    sbcl
     ghc
     slurp
     sbctl
