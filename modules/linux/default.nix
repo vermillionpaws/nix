@@ -33,7 +33,6 @@
   };
 
   environment = {
-    memoryAllocator.provider = "mimalloc";
     variables = {
       RADV_DEBUG = "zerovram";
       radeonsi_zerovram = "true";
