@@ -41,6 +41,7 @@
     zip
     unzip
     statix
+    codespell
     llvmPackages_20.stdenv
     llvmPackages_20.libcxx
     llvmPackages_20.libcxxClang
@@ -52,6 +53,7 @@
     llvmPackages_20.libunwind
     llvmPackages_20.compiler-rt
     llvmPackages_20.clangUseLLVM
+    llvmPackages_20.clang-unwrapped
     lldb_20
     vscode-extensions.vadimcn.vscode-lldb
     (chromium.override {
