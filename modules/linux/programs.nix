@@ -104,5 +104,8 @@
       vimAlias = true;
       defaultEditor = true;
     };
+    nix-ld = {
+      enable = true;
+    };
   };
 }
