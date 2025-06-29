@@ -1,18 +1,11 @@
 { pkgs, ... }:
 {
   environment.systemPackages = with pkgs; [
-    adwaita-icon-theme
-    adwaita-icon-theme-legacy
-    morewaita-icon-theme
     grim
     btop
     pre-commit
     nixfmt-rfc-style
-    cabal-install
-    sbcl
-    ghc
     slurp
-    sbctl
     wl-clipboard
     nil
     brightnessctl
@@ -55,7 +48,6 @@
     llvmPackages_20.clangUseLLVM
     llvmPackages_20.clang-unwrapped
     lldb_20
-    vscode-extensions.vadimcn.vscode-lldb
     (chromium.override {
       commandLineArgs = [
         "--ignore-gpu-blocklist"

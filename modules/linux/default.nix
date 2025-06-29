@@ -51,7 +51,6 @@
       NIXOS_OZONE_WL = "1";
       GDK_BACKEND = "wayland";
       GSK_RENDERER = "vulkan";
-      GSK_DEBUG = "staging";
       _JAVA_AWT_WM_NONREPARENTING = "1";
 
       VK_INSTANCE_LAYERS = "VK_LAYER_KHRONOS_validation";

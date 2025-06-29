@@ -15,45 +15,10 @@
       enable = true;
 
     };
-    xserver = {
-      displayManager = {
-        gdm = {
-          enable = true;
-          wayland = true;
-        };
-      };
-      desktopManager = {
-        gnome = {
-          enable = true;
-        };
-      };
-    };
     libinput = {
       enable = true;
     };
-    gnome = {
-      gnome-settings-daemon = {
-        enable = true;
-      };
-      gnome-keyring = {
-        enable = true;
-      };
-      gnome-browser-connector = {
-        enable = true;
-      };
-      glib-networking = {
-        enable = true;
-      };
-      core-shell = {
-        enable = true;
-      };
-      core-utilities = {
-        enable = true;
-      };
-      core-os-services = {
-        enable = true;
-      };
-    };
+	
     colord = {
       enable = true;
     };
@@ -77,8 +42,7 @@
       xdgOpenUsePortal = true;
       extraPortals = with pkgs; [
         xdg-desktop-portal
-        xdg-desktop-portal-gtk
-        xdg-desktop-portal-gnome
+        xdg-desktop-portal-hyprland
       ];
     };
     terminal-exec = {
@@ -86,4 +50,5 @@
       package = pkgs.kitty;
     };
   };
+programs.hyprland.enable = true;
 }
